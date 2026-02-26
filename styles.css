@@ -1,34 +1,93 @@
-h1{
-    color: rgb(51, 15, 209);
-    background-color: aliceblue;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
 }
 
-label{
-    display: block;
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    color: #444;
+}
+
+
+.seccion {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+
+ul {
+    margin-left: 20px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
     margin-top: 10px;
-    font-weight: bold;
 }
 
-input{
-    width: 50%;
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+
+img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 95%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
-button{
-    width: 100px;
-    padding: 10px;
-    margin-top: 15px;
-    background-color: #007bff;
-    color:white;
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
-button:hover{
-    background-color: #0056b3;
+button:hover {
+    background-color: #45a049;
+}
 
+fieldset {
+    border-radius: 8px;
+    padding: 10px;
 }
